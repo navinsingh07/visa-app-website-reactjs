@@ -1,0 +1,106 @@
+.contact-content{
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.icons p{
+    padding: 0 10px;
+}
+
+.contact-content h5{
+    padding: 20px 0 0 0;
+    font-size: 30px;
+}
+
+
+
+
+.main-form{
+    padding: 2rem 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form label{
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+
+form input, textarea{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+form button{
+    margin: 20px auto 10px auto;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #409bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:640px) {
+
+    .contact-content h1{
+        font-size: 20px;
+    }
+
+
+    .main-form{
+        padding: 2rem 0;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    form label{
+        padding: 10px 0 10px 0;
+        font-size: 15px;
+    }
+
+    form textarea{
+        width: 100%;
+    }
+
+
+    .contact-content h5{
+        font-size: 15px;
+    }
+
+
+    .main-form{
+        padding: 1rem 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    form button{
+        font-size: 20px;
+    }
+    
+
+}

@@ -1,0 +1,56 @@
+
+.Why-choose-us{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.Wcu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.Wcu img{
+    width: 40px;
+    height: 40px;
+}
+
+.heading-wcu{
+    padding: 15px 0 0 0;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.para-wcu{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+}
+
+.wcu-Heading{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+@media screen and (max-width:840px) {
+
+    .Why-choose-us{
+        flex-direction: column;
+    }
+
+
+}

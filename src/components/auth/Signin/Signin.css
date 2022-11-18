@@ -1,0 +1,75 @@
+.signInSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+    row-gap: 60px;
+}
+
+.loginHeader{
+    width: 35%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.loginHeader h1{
+   font-weight: 400;
+}
+
+.loginForm{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginform h3{
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: #409bff;
+}
+
+.loginform input{
+    width: 300px;
+    height: 40px;
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+}
+
+.signupClick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupClick a{
+    text-decoration: none;
+    color: #409bff;
+}
+
+@media screen and (max-width:840px) {
+    .signInSection{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .loginHeader{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .loginform h3{
+        padding-bottom: 30px;
+        font-size: 35px;
+        color: #409bff;
+        text-align: center;
+    }
+    
+}

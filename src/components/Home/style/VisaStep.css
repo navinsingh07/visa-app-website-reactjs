@@ -1,0 +1,94 @@
+.card-menu{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+.card img{
+    width: 160px;
+    height: 160px;
+}
+
+.heading{
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.card-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+ 
+}
+
+
+.visaHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+
+
+@media screen and (max-width:1080px) {
+
+    .card-menu{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .card img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .heading{
+        font-size: 15px;
+    }
+    
+    .para{
+        font-size: 11px;
+    }
+
+    .visaHeading{
+        font-size: 15px;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+
+}
