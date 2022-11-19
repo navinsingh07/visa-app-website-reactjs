@@ -36,7 +36,7 @@ const AccordionSummary = styled((props) => (
   },
   '& .MuiAccordionSummary-content': {
     marginLeft: theme.spacing(1),
-  }, width:"100%", backgroundColor:"#fff"
+  }, width:"100%",
 }));
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
