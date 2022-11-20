@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='intro'>
                 <h1>Fly&Tour</h1>
                 <p>
-                Visa2Fly is an online visa application platform that is dedicated to easing the lives of travellers. We simplify the way you book your visa application. Whether it is a transit, tourist or business visa, we guide you from start to end to ensure maximum success of getting your visa on time.
+                Fly&Tour is an online visa application platform that is dedicated to easing the lives of travellers. We simplify the way you book your visa application. Whether it is a transit, tourist or business visa, we guide you from start to end to ensure maximum success of getting your visa on time.
                 </p>
             </div>
         </div>
