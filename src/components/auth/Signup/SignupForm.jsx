@@ -1,5 +1,6 @@
 import React from 'react'
 import './SignupForm.css'
+import { Link } from 'react-router-dom'
 
 const SignupForm = () => {
   return (
@@ -20,7 +21,7 @@ const SignupForm = () => {
                 </form>
                 <span className='bar' ></span>
                 <div className="signupClick">
-                  <a href="/signin">Already a User? Click here</a>
+                  <Link to="/signin">Already a User? Click here</Link>
                 </div>
         </div>
 
