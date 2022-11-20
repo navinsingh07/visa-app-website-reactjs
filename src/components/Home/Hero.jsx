@@ -1,7 +1,7 @@
 import React from 'react'
 import './style/HeroStyles.css'
 // import img1 from '../../assets/images/img14.jpg'
-import video from '../../assets/heroVideo.mp4'
+import video from '../../assets/heroVideo2.mp4'
 
 const Hero = () => {
   return (
