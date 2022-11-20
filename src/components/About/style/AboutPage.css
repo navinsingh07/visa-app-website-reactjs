@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 8rem 0;
 }
 
 .about-heading{
@@ -61,5 +61,9 @@
         font-size: 12px;
         font-weight: lighter;
         color: gray;
+    }
+
+    .main-div{
+        padding: 5rem 0;
     }
 }

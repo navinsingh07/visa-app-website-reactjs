@@ -7,9 +7,9 @@ const HeroImg = () => {
   return (
     <>
        <div className='hero-img'>
-        <div className="heading">
+        {/* <div className="heading">
             <h1>ABOUT</h1>
-        </div>
+        </div> */}
     </div>
     </>
   )

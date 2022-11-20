@@ -5,9 +5,9 @@ const ContactHero = () => {
   return (
     <>
        <div className='contact-img'>
-        <div className="contact-heading">
+        {/* <div className="contact-heading">
             <h1>CONTACT US</h1>
-        </div>
+        </div> */}
     </div>
     </>
   )

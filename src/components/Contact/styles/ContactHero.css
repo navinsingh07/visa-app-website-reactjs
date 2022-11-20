@@ -1,6 +1,6 @@
 .contact-img{
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     position: relative;
 }
 
@@ -15,8 +15,8 @@
 
 .contact-img::before{
     content: "";
-    background: url("../../../assets/images/img6.jpg");
-    background-size: cover;
+    background: url("../../../assets/images/ContactUs/contact-img.png");
+    background-size: contain;
     background-position: center top;
     height: 100%;
     width: 100%;
@@ -46,7 +46,7 @@
 
     .contact-img{
         width: 100%;
-        height: 30vh;
+        height: 28vh;
         position: relative;
     }
 }
