@@ -24,6 +24,7 @@
     font-size: 2rem;
     cursor: pointer;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .nav-menu{

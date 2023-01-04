@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     // <nav className={color ? ' navbarItems navbarBG' : 'navbarItems'}>
     <nav className='navbarItems'>
-    <h1 className='navbar-logo'>Fly&Tour</h1>
+    <Link to='/' className='navbar-logo'>Fly&Tour</Link>
 
     <div className="menu-icons" onClick={handleClick} >
       {click ? (<AiFillCloseCircle size={30} style={{cursor:"pointer", lineHeight:"80px"}}/>) :  (<FaBars size={30} style={{cursor:"pointer"}}/>)}
